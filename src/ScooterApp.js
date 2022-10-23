@@ -67,6 +67,20 @@ class ScooterApp{
             }
         } 
         throw "Scooter is not located"
+         //alternative 
+        /*let location = scooterToRemove.station
+        let scooterArray = this.stations[location]
+        if(location !== undefined){
+            for(let scooter of scooterArray){
+                if(scooter.serial === scooterToRemove.serial){
+                    scooterArray.splice(scooterArray.indexOf(scooterToRemove),1)  
+                    //this.stations[station] = scooterArray - why is this line not needed? How do i test console
+                    console.log return ("Scooter has successfully been removed")
+                }
+            }
+        }else{
+            throw "Scooter is not located"
+        }   */
     }
 
 
