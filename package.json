@@ -1,5 +1,5 @@
 {
-  "name": "scooter-project-solution",
+  "name": "scooter-project",
   "version": "1.0.0",
   "description": "An Electric Scooter Hire app system, created using UML, OOP, JS Classes and TDD",
   "main": "Application.js",
